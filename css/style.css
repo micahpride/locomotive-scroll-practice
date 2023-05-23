@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    margin: 0;
+}
+/* background and text color */
+section{
+    height: 100vh;
+    padding: 10em;
+    &:first-child{
+        background: blue;
+        color: white;
+    }
+    &:nth-child(2){
+        background: gray;
+        color: white;
+    }
+    &:nth-child(3){
+        background: goldenrod;
+        color: white;
+    }
+    &:nth-child(4){
+        background: red;
+        color: white;
+    }
+}
+h1{
+    font-size: 3em;
+}
+P{
+    font-size: 1.5em;
+}
+/* opacity effect */
+.scroll-class{
+    opacity: 0;
+}
+.custom{
+    opacity: 1;
+    transition: opacity 3s;
+}
